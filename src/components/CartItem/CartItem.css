@@ -1,0 +1,69 @@
+.itemImage {
+  width: 70px;
+  height: 70px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.nameAndSKU {
+  margin: auto 2.4rem;
+}
+.nameAndSKU > p,
+.itemTotal {
+  margin: 0;
+}
+
+.nameAndSKU > h6 {
+  color: black;
+  font-size: 1.1rem;
+  margin-bottom: 0.2em;
+}
+
+.nameAndSKU > p {
+  font-size: 0.7rem;
+  color: rgb(107, 107, 107);
+}
+.itemContainer > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.ant-input-number {
+  width: 80%;
+  color: black;
+}
+
+.onChange {
+  animation: priceZoom 0.3s 1 0s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.subtotalEliminar {
+  flex-direction: column;
+  text-align: center;
+  padding-right: 1.1rem !important;
+  padding-bottom: 1.1rem !important;
+}
+.subtotalEliminar .x {
+  text-align: center;
+  font-weight: bold;
+  width: 1rem;
+  cursor: pointer;
+  color: #aa0000;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 15%;
+}
+.itemContainer > div > .itemNameAndImageContainer {
+  justify-content: left;
+}
+
+@keyframes priceZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}

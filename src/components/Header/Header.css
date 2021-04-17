@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Rounded';
+  src: url('../../shared/fonts/Simply\ Rounded.ttf');
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.headerTitle {
+  padding-left: 10px;
+  font-family: 'Rounded';
+  font-size: 2rem;
+  white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .headerTitle {
+    font-size: 1.5rem;
+  }
+}

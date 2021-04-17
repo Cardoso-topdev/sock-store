@@ -1,0 +1,96 @@
+.itemImage {
+  width: 70px;
+  height: 70px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.cta-container {
+  text-align: left;
+}
+
+.btn-cartItem {
+  line-height: 0.5;
+}
+
+.nameAndSKU {
+  margin: auto 2.4rem;
+}
+.nameAndSKU > p,
+.itemTotal {
+  margin: 0;
+}
+
+.nameAndSKU > h6 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0.2em;
+}
+
+.nameAndSKU > p {
+  font-size: 16px;
+  color: rgb(107, 107, 107);
+}
+.itemContainer > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.itemContainer > .row > div {
+  justify-content: center;
+}
+
+.ant-input-number {
+  color: black;
+}
+
+.onChange {
+  animation: priceZoom 0.3s 1 0s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.subtotalEliminar {
+  flex-direction: column;
+  text-align: center;
+  padding-right: 1.1rem !important;
+  padding-bottom: 1.1rem !important;
+}
+.cta-delete {
+  text-align: left;
+  font-weight: bold;
+  width: 1rem;
+  cursor: pointer;
+  color: #aa0000;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.itemNameAndImageContainer {
+  justify-content: left !important;
+}
+
+@keyframes priceZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cta-container {
+    text-align: left;
+  }
+
+ }
+
+@media screen and (max-width: 375px) {
+
+  .cta-container {
+    text-align: left;
+  }
+
+}

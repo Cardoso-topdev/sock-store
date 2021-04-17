@@ -1,0 +1,19 @@
+.infoIcon {
+  max-width: 16px;
+  max-height: 16px;
+  padding: 0;
+  border: none;
+  background: none;
+  margin: 5px 0 0 5px;
+}
+.padding-right-2rem {
+  padding-right: 2rem !important;
+}
+
+.form-check-label {
+  text-decoration: none;
+}
+
+.labelShippingTime {
+  color: #007bff;
+}

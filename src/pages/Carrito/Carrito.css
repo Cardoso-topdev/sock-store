@@ -1,0 +1,142 @@
+.cartContainer {
+  margin: 40px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+  min-height: calc(100vh - 500px);
+  padding-top: 20px;
+}
+
+.total-container {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.top {
+  position: fixed;
+  width: 76%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.total-container-mobile {
+  display: none;
+}
+
+.discount {
+  font-family: 'Montserrat', sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 40%;
+  margin-left: auto;
+}
+
+.grid-item {
+  min-width: 120px;
+  padding-left: 20px;
+}
+.cartCard {
+  padding: 1em 0.5em;
+  border-radius: 10px;
+}
+.cartHeader h6,
+.totalAndPrice {
+  font-weight: bold;
+}
+.cartHeader,
+.totalRow {
+  margin: 0;
+}
+.cartHeader > div {
+  justify-content: center;
+}
+
+.totalAndPrice {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  margin-right: 10px;
+}
+
+.line {
+  width: 90%;
+  background: #666666c9;
+  margin-top: 0;
+}
+
+.btnContainer {
+  border-top: 1px solid #eee;
+}
+
+.btnContainer > .col > a > button {
+  text-decoration: none;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #00cc80;
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  padding: 15px 20px;
+}
+.btnContainer > .col > a {
+  width: 320px;
+  margin: 20px 10% 20px auto;
+}
+
+.cartItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid #eee;
+}
+
+.carritoVacio {
+  text-align: center;
+}
+
+.confirmButton {
+  background-color: #3085d6 !important;
+}
+.cancelButton {
+  background-color: #d33 !important;
+}
+
+@media screen and (max-width: 720px) {
+  .cartContainer {
+    padding: 0 0.5rem;
+  }
+
+  .grid-container {
+    margin-left: 50px;
+  }
+
+  .btnContainer > .col > a {
+    width: 64%;
+  }
+
+
+ }
+
+@media screen and (max-width: 375px) {
+  .cartContainer {
+      padding: 0 0.5rem;
+    }
+
+    .grid-container {
+      margin-left: 50px;
+    }
+
+    .btnContainer > .col > a {
+      width: 64%;
+    }
+}

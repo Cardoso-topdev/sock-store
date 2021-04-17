@@ -1,0 +1,14 @@
+.banner-discount {
+  padding: 0.5em;
+  background-color: #173753;
+  color: white;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-discount {
+    font-size: 14px;
+  }
+}

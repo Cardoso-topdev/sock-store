@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Rounded';
+  src: url('../../shared/fonts/Simply\ Rounded.ttf');
+}
+
+.navbarB {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 65px;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 5px 57px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 57px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 57px -4px rgba(0, 0, 0, 0.5);
+}
+
+.img-container {
+  /* box-shadow: 1px 2px 22px #E1306C;
+  -moz-box-shadow: 1px 2px 22px #E1306C;
+  -webkit-box-shadow: 1px 2px 22px #E1306C;
+  -khtml-box-shadow: 1px 2px 22px #E1306C; */
+}
+
+.link-car {
+ display: flex;
+}
+
+.hidden-car {
+  display: none;
+  margin-left: auto;
+}
+
+.logo-text {
+  font-family: 'Rounded' !important;
+}
+  
+.navtxt {
+  color: white;
+  margin: 0;
+  margin: 0px 10px 0px 10px;
+  font-family: 'Rounded';
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+}
+
+.navbarB .extrasmall {
+  font-size: 0.7rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .navbarB {
+    top: 0;
+    justify-content: flex-start;
+  }
+
+  .navbarB p.navtxt {
+    padding: 0.5rem;
+  }
+
+  .navbarB img {
+    padding: 0;
+  }
+
+  .navbarB .padding_top_small {
+    padding-top: 0;
+  }
+
+  footer {
+    margin-bottom: 0 !important;
+  }
+  .fullscreen-video-wrap {
+    margin-top: 65px;
+  }
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbarB {
+    height: auto;
+  }
+
+  .navbarB a {
+    max-width: 48px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hidden-car {
+    display: flex;
+  }
+
+  .link-car {
+    display: none;
+  }
+
+  .navbar-toggler {
+    margin-left: 15px;
+  }
+}

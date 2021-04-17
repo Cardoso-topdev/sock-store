@@ -1,0 +1,164 @@
+.row > div {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.plp-hero {
+  width: 100%;
+  height: 200px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+@media screen and (max-width: 768px) {
+  .plp-hero {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .plp-hero {
+    height: 100px;
+  }
+}
+
+.card-title {
+  margin: auto;
+  text-align: left;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 5;
+  pointer-events: none;
+  font-size: 16px;
+  padding-left: 10px;
+  /* width: 60%; */
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .card-title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.bsCard {
+  width: 100%;
+  height: 70px;
+  padding: 0;
+  
+  background-color: #efefef;
+  /* border: 1px solid black; */
+  border: none;
+
+  border-radius: var(--border-radius);
+  position: absolute;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.bsCardSelected {
+  background-color: #bdedff;
+}
+
+.bsCard img {
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-height: 50px;
+  margin: auto;
+}
+
+.cardContainer {
+  position: relative;
+  width: 100%;
+  min-width: 180px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px 10px;
+}
+
+.cardContainerWrapper {
+  transition: 0.1s;
+}
+
+.blackLayer {
+  position: absolute;
+  width: 100%;
+  height: 95px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.blackLayer:active {
+  pointer-events: none;
+}
+.listContainer {
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .listContainer {
+    margin: -6px 0 0 0;
+  }
+}
+
+.bsCard {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 375px) {
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+.categories-hide {
+  display: none !important;
+}
+
+.categories-dropdown {
+  height: 75px;
+  background-color: #333333;
+}
+.categories-dropdown h5 {
+  color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    max-width: 200px;
+  }
+  .categories-dropdown {
+    display: none !important;
+  }
+  .categories-hide {
+    display: flex !important;
+  }
+}
+
+.dropdown-icon {
+  width: 20px;
+  height: 25px;
+  margin-left: 50%;
+}
+
+.encabezado {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.encabezado img {
+  max-width: fit-content;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .encabezado img {
+    max-width: 50%;
+  }
+}
